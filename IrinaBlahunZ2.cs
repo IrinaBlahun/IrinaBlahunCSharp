@@ -1,6 +1,6 @@
 using System;
 
-namespace IrinaBlahunZ1
+namespace IrinaBlahunZ2
 {
     class Program
     {
