@@ -1,20 +1,25 @@
 using System;
 
+
 namespace IrinaBlahunZ1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите число N");
-            int size = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= size; i++)
-                if (i % 3 == 0)
+            int[] array = new int[42];
+            Random rand = new Random();
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rand.Next(-100, 100);
+            {
+                foreach (var i in array)
                 {
+                    if (i % 3 == 0)
                     Console.WriteLine(i);
                 }
+            }
 
         }
-                    
+
     }
 }
