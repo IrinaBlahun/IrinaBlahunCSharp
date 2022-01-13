@@ -1,7 +1,7 @@
 using System;
 
 
-namespace IrinaBlahunZ1
+namespace IrinaBlahunZ3
 {
     class Program
     {
