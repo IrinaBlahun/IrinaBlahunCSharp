@@ -7,19 +7,21 @@ namespace IrinaBlahunZ3
     {
         static void Main(string[] args)
         {
-            int[] array = new int[42];
+            int[] mas = new int[42];
             Random rand = new Random();
-            for (int i = 0; i < array.Length; i++)
-                array[i] = rand.Next(-100, 100);
-            {
-                foreach (var i in array)
-                {
-                    if (i % 3 == 0)
-                    Console.WriteLine(i);
-                }
+            for (int i = 0; i < mas.Length; i++)
+            { 
+                mas[i] = rand.Next(-100, 100);
             }
-
+           NumFind(mas);
         }
-
+        static void NumFind(int[] mas)
+        {
+            foreach (var i in mas)
+            {
+                if (i % 3 == 0)
+                    Console.WriteLine(i);
+            }
+        }
     }
 }
