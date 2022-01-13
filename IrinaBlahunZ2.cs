@@ -7,7 +7,7 @@ namespace IrinaBlahunZ2
         static void Main(string[] args)
         {
             Console.WriteLine("Введите ваше имя");
-            string name = Convert.ToString(Console.ReadLine());
+            string name = Console.ReadLine();
 
             if (name == "Вячеслав")
             {
@@ -18,6 +18,6 @@ namespace IrinaBlahunZ2
                 Console.WriteLine("Нет такого имени");
             }
         }
-                    
+
     }
 }
